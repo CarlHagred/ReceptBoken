@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReceptBoken</string>
+    <string name="shareButtonText">Share</string>
+    <string name="addButtonText">Add</string>
+</resources>
