@@ -63,6 +63,8 @@ class MainActivity : AppCompatActivity() {
         val type = object : TypeToken<List<RecipeSave?>?>() {}.type
         productFromShared = gson.fromJson<List<RecipeSave?>>(jsonPreferences, type)
 
+        if (productFromShared == null) return
+
         if (productFromShared.isEmpty()) return
 
         for(item in productFromShared){
